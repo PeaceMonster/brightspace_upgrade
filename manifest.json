@@ -1,0 +1,13 @@
+{
+    "name": "Brightspace++",
+    "version" : "1.0",
+    "description" : "A tool for making Brightspace better",
+    "author" : "Ugilt",
+    "manifest_version" : 3,
+    "content_scripts" : [
+        {
+            "matches": ["https://brightspace.au.dk/*"],
+            "css": ["compact.css"]
+        }
+    ]
+}
